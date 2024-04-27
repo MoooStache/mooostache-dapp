@@ -37,7 +37,7 @@ export default function Home() {
             src="/Avatar.jpeg"
             width="300"
             height="300"
-            className="rounded-full border border-white m-2"
+            className="rounded-full border border-white m-2 blur-lg"
           />
           <h1 className="text-2xl font-light">Show your Stache</h1>
           <p className="text-lg font-light">Coming Q3 2024</p>
