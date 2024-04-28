@@ -30,7 +30,6 @@ export default function Home() {
 
       {/* Main Content */}
       <section className="flex-grow flex items-center justify-center">
-
         <div className="flex flex-col text-center justify-center bg-blue-600 rounded-xl p-8 shadow-md">
 
           <Image
