@@ -7,7 +7,7 @@ export default function Home() {
 
 
 
-    <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-500 to-pink-400 text-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-400 to-pink-400 text-white font-mono">
       {/* <Head>
         <title>Mooo Stache</title>
         <link rel="icon" href="/favicon.ico" />
@@ -31,16 +31,16 @@ export default function Home() {
       {/* Main Content */}
       <section className="flex-grow flex items-center justify-center">
 
-        <div className="flex flex-col text-center justify-center bg-blue-500 rounded-xl p-8 shadow-md">
+        <div className="flex flex-col text-center justify-center bg-blue-600 rounded-xl p-8 shadow-md">
 
           <Image
-            src="/Avatar.jpeg"
-            width="300"
-            height="300"
-            className="rounded-full border border-white m-2 blur-lg"
+            src="/AvatarTransparent.png"
+            width="240"
+            height="240"
+            className="mx-4 my-8 blur-md"
           />
-          <h1 className="text-2xl font-light">Show your Stache</h1>
-          <p className="text-lg font-light">Coming Q3 2024</p>
+          {/* <h1 className="text-2xl font-light">Show your Stache</h1> */}
+          <p className="text-2xl mt-4 font-light">Launch Q3 2024</p>
         </div>
       </section>
 
